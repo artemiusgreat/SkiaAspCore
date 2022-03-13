@@ -59,7 +59,7 @@ namespace ImageServiceDemo.Controllers
           //while (true)
           {
             await drawShapes();
-            await drawShapes();
+            //await drawShapes();
           }
         }
         catch (TaskCanceledException) { }
